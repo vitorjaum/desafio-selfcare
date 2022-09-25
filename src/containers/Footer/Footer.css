@@ -1,0 +1,17 @@
+.footer {
+  padding-top: 30px;
+  background-color: #f9f9f9;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #a5a1a1 solid 0.5px;
+  padding: 0 30px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}

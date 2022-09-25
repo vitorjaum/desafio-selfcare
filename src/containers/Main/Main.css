@@ -1,0 +1,23 @@
+.titles {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 4%;
+  border-bottom: 0.5px solid lightgray;
+}
+
+#promocao {
+  font-family: "Lato", sans-serif;
+  line-height: 24px;
+  size: 20px;
+  font-weight: 700;
+}
+
+.titles p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.products-grid {
+  padding: 4%;
+}

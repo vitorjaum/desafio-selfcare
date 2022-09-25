@@ -12,9 +12,9 @@ const Header = () => {
         <img src={logo} alt="Logo da Selfcare" className="icon" />
       </div>
       <div className="icons">
-        <img src={cart} alt="ícone de carrinho" className="icon" />
-        <img src={user} alt="Ícone de usuário" className="icon" />
         <img src={glass} alt="Ícone de lupa para pesquisa" className="icon" />
+        <img src={user} alt="Ícone de usuário" className="icon" />
+        <img src={cart} alt="ícone de carrinho" className="icon" />
       </div>
     </header>
   );

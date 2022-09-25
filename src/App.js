@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 import Header from "./containers/Header/Header";
 import Main from "./containers/Main/Main";
 import Footer from "./containers/Footer/Footer";
@@ -9,7 +10,7 @@ function App() {
     <>
       <Header />
       <div>
-        <img src={banner} />
+        <img src={banner} className="banner" />
       </div>
       <Main />
       <Footer />
