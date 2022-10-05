@@ -11,7 +11,7 @@ const Header = () => {
       <div className="logo">
         <img src={logo} alt="Logo da Selfcare" className="icon" />
       </div>
-      <div className="icons">
+      <div className="iconsList">
         <img src={glass} alt="Ícone de lupa para pesquisa" className="icon" />
         <img src={user} alt="Ícone de usuário" className="icon" />
         <img src={cart} alt="ícone de carrinho" className="icon" />

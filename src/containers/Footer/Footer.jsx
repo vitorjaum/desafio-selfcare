@@ -17,23 +17,25 @@ const Footer = () => {
           <p>Cancelamento, troca e reembolso</p>
         </nav>
         <nav className="newsletter">
+          <label htmlFor="newsletter">Newsletter</label>
           <input
             placeholder="Digite seu melhor e-mail"
             type="text"
-            name=""
+            name="newsletter"
             id=""
+            title="newsletter"
           />
-          <button>Inscrever</button>
+          <button id="inscrever">Inscrever</button>
         </nav>
       </div>
       <div className="footer-bottom">
-        <div className="socials">
+        <div className="social-icons">
           <img src={instagram} alt="" />
           <img src={facebook} alt="" />
         </div>
         <div className="bank-icons">
-          <img src={paypal} alt="" />
           <img src={mastercard} alt="" />
+          <img src={paypal} alt="" />
           <img src={visa} alt="" />
         </div>
       </div>

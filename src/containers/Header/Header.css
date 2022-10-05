@@ -9,11 +9,16 @@
   max-width: 100%;
 }
 
-.icons .icon {
+.iconsList .icon {
   width: 21.14px;
   height: 21.14px;
+  margin: 0 10px;
 }
 
+.iconsList {
+  display: flex;
+  align-items: center;
+}
 .logo img {
   width: 119.69px;
   height: 31px;
