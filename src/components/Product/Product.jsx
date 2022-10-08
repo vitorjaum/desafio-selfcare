@@ -25,11 +25,11 @@ function Product() {
   ];
 
   return arrProds.map((prod, index) => (
-    <div key={index}>
+    <div key={index} className="product">
       <img src={prod} alt="" className="productImage" />
       <p className="desc">Lorem ipsum dolor sit</p>
       <p className="price">
-        R$ <span>50,00</span>
+        R$ <span className="priceValue">50,00</span>
       </p>
     </div>
   ));

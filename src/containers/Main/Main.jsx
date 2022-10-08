@@ -22,6 +22,8 @@ const arrProds = [
   product7,
   product8,
   product9,
+  product9,
+  product9,
 ];
 const Main = () => {
   return (

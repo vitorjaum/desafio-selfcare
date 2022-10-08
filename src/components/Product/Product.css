@@ -1,4 +1,13 @@
+.product {
+  font-family: "Lato";
+  width: 20em;
+}
+
 .productImage {
-  width: 120px;
-  height: 120px;
+  width: 100%;
+  height: 303px;
+}
+
+.priceValue {
+  color: #5ca720;
 }
