@@ -1,8 +1,5 @@
-import React from "react";
+import { Header, Footer, MainScreen } from "containers";
 import "./App.css";
-import Header from "./containers/Header/Header";
-import Main from "./containers/Main/Main";
-import Footer from "./containers/Footer/Footer";
 import banner from "./assets/banner.png";
 
 function App() {
@@ -10,9 +7,9 @@ function App() {
     <>
       <Header />
       <div>
-        <img src={banner} className="banner" />
+        <img src={banner} className="banner" alt="Banner do site" />
       </div>
-      <Main />
+      <MainScreen />
       <Footer />
     </>
   );

@@ -1,6 +1,4 @@
-import React from "react";
-import Product from "../../components/Product/Product";
-import "./Main.css";
+import "./Product.css";
 
 import product1 from "./../../assets/product1.jpg";
 import product2 from "./../../assets/product2.jpg";
@@ -22,21 +20,20 @@ const arrProds = [
   product7,
   product8,
   product9,
-  product9,
-  product9,
 ];
-const Main = () => {
-  return (
-    <main>
-      <div className="titles">
-        <p id="promocao">PROMOÇÃO</p>
-        <p>9 produtos</p>
-      </div>
-      <section className="products-grid">
-        <Product />
-      </section>
-    </main>
-  );
-};
 
-export default Main;
+export const Product: React.FC = () => (
+  <>
+    {arrProds.map((prod, index) => {
+      return (
+        <div key={index} className="product">
+          <img src={prod} alt="Imagem de produto" className="productImage" />
+          <p className="desc">Lorem ipsum dolor sit</p>
+          <p className="price">
+            R$ <span className="priceValue">50,00</span>
+          </p>
+        </div>
+      );
+    })}
+  </>
+);

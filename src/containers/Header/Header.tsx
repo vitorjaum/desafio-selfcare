@@ -1,11 +1,10 @@
-import React from "react";
 import "./Header.css";
 import logo from "../../assets/icons/logo.png";
 import cart from "../../assets/icons/cart.png";
 import user from "../../assets/icons/user.png";
 import glass from "../../assets/icons/glass.png";
 
-const Header = () => {
+export const Header = () => {
   return (
     <header className="header">
       <div className="logo">
@@ -19,5 +18,3 @@ const Header = () => {
     </header>
   );
 };
-
-export default Header;

@@ -4,6 +4,7 @@
 
 .footer-top {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   border-bottom: #a5a1a1 solid 0.2px;
   padding: 30px 4%;
@@ -18,9 +19,8 @@
   padding: 30px 4%;
 }
 
-.newsletter {
-  display: flex;
-  align-items: center;
+.footer-bottom img {
+  cursor: pointer;
 }
 
 .social-icons img {
@@ -38,15 +38,36 @@
   margin: 0 10px;
 }
 
-.newsletter input {
-  height: 54px;
+.newsletter {
+  display: flex;
+  flex-direction: column;
 }
 
-#inscrever {
-  background-color: #5ca720;
-  border: none;
+.newsletter-inputs {
+  display: flex;
+  margin-top: 5px;
+}
+
+#newsletter-text {
+  width: 397px;
   font-family: "Lato";
+  border: 0.5px solid #d9d9d9;
+  box-sizing: border-box;
+  padding-left: 5px;
+  border-radius: 5px 0 0 5px;
+}
+
+#btn-register {
+  background-color: #5ca720;
+  text-align: center;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  font-weight: 800;
+  font-size: 20px;
   color: #ffffff;
   border-radius: 0 5px 5px 0;
   height: 54px;
+  font-family: "Lato";
+  width: 152px;
 }
