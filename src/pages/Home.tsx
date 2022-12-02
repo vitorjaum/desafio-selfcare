@@ -1,8 +1,8 @@
-import { Header, Footer, MainScreen } from "containers";
-import "./App.css";
-import banner from "./assets/banner.png";
+import { Footer, Header, MainScreen } from "containers";
+import banner from "assets/banner.png";
+import "./Home.css";
 
-function App() {
+export const Home: React.FC = () => {
   return (
     <>
       <Header />
@@ -13,6 +13,4 @@ function App() {
       <Footer />
     </>
   );
-}
-
-export default App;
+};

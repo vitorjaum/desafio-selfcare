@@ -1,5 +1,5 @@
-import React from "react";
 import { useEffect, useState } from "react";
+
 type IconProps = {
   iconName: string;
 };
@@ -18,11 +18,7 @@ export const Icon: React.FC<IconProps> = ({ iconName }) => {
 
   return (
     <>
-      <img
-        src={iconSrc}
-        onClick={() => console.log("hey")}
-        alt={`icone do ${iconName}`}
-      />
+      <img src={iconSrc} alt={`icone do ${iconName}`} />
     </>
   );
 };

@@ -22,7 +22,7 @@ export const Footer: React.FC = () => {
               id="newsletter-text"
               title="newsletter"
             />
-            <input id="btn-register" value={"Inscrever"} />
+            <input id="btn-register" value={"Inscrever"} type="button" />
           </div>
         </form>
       </div>
