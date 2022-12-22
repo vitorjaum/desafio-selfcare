@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
         </nav>
         <form action="footer.jsx" className="newsletter">
           <label htmlFor="newsletter">Newsletter</label>
-          <div className="newsletter-inputs">
+          <div>
             <input
               placeholder="Digite seu melhor e-mail"
               type="text"
@@ -22,7 +22,7 @@ export const Footer: React.FC = () => {
               id="newsletter-text"
               title="newsletter"
             />
-            <input id="btn-register" value={"Inscrever"} type="button" />
+            <input id="newsletter-btn" value={"Inscrever"} type="button" />
           </div>
         </form>
       </div>

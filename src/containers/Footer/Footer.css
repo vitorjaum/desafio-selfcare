@@ -2,15 +2,83 @@
   background-color: #f9f9f9;
 }
 
+/* Footer Top */
 .footer-top {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   border-bottom: #a5a1a1 solid 0.2px;
   padding: 30px 4%;
   font-family: "Lato";
   line-height: 1.5;
 }
+
+.newsletter {
+  display: inherit;
+  width: 34em;
+  margin-left: 6em;
+  flex-direction: column;
+}
+
+.newsletter label {
+  display: block;
+}
+
+.newsletter div {
+  display: flex;
+  width: 100%;
+}
+#newsletter-text {
+  width: 70%;
+  height: 3.5em;
+  font-family: "Lato";
+  border: 0.5px solid #d9d9d9;
+  box-sizing: border-box;
+  padding-left: 5px;
+  border-radius: 5px 0 0 5px;
+}
+
+#newsletter-btn {
+  width: 152px;
+  height: 2.35em;
+  background-color: #5ca720;
+  text-align: center;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  font-weight: 800;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 0 5px 5px 0;
+  font-family: "Lato";
+}
+
+@media (max-width: 658px) {
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .newsletter {
+    width: 100%;
+    margin: 0;
+    margin: auto;
+    margin-top: 3em;
+  }
+  .newsletter div {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+  #newsletter-text {
+    width: 100%;
+    margin-bottom: 1.5em;
+  }
+  #newsletter-btn {
+    width: 100%;
+    border-radius: 5px;
+  }
+}
+
+/* Footer Bottom */
 
 .footer-bottom {
   display: flex;
@@ -36,38 +104,4 @@
 
 .bank-icons img {
   margin: 0 10px;
-}
-
-.newsletter {
-  display: flex;
-  flex-direction: column;
-}
-
-.newsletter-inputs {
-  display: flex;
-  margin-top: 5px;
-}
-
-#newsletter-text {
-  width: 397px;
-  font-family: "Lato";
-  border: 0.5px solid #d9d9d9;
-  box-sizing: border-box;
-  padding-left: 5px;
-  border-radius: 5px 0 0 5px;
-}
-
-#btn-register {
-  background-color: #5ca720;
-  text-align: center;
-  padding: 0;
-  cursor: pointer;
-  border: none;
-  font-weight: 800;
-  font-size: 20px;
-  color: #ffffff;
-  border-radius: 0 5px 5px 0;
-  height: 54px;
-  font-family: "Lato";
-  width: 152px;
 }
