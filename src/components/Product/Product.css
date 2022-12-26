@@ -6,3 +6,9 @@
 .priceValue {
   color: #5ca720;
 }
+
+@media (max-width: 730px) {
+  .product {
+    width: 100%;
+  }
+}
